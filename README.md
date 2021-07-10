@@ -1,38 +1,36 @@
-#Projet Blog en MVC
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Kaidjinn007/MVC.git
-git push -u origin main
+# A blog MVC pattern
+[Make a blog by using the MVC pattern Model-View-Controller (MVC))](https://simplonline.co/briefs/4e84337c-8eb1-43b5-a293-a8074069a226)
 
-Réaliser un blog en respectant le pattern Model-View-Controller (MVC) dans le cadre de la formation DWWM de Simplon.
+- 🥋 Sensei:&nbsp;Philippe Giraud
+- 📅 Date:&nbsp;&nbsp;&nbsp;&nbsp;04.06.2021
+- 🥅 Goal:&nbsp;&nbsp;&nbsp;&nbsp;Make a blog by using the MVC pattern Model-View-Controller (MVC)
+- 🔧 Skills:&nbsp;&nbsp;&nbsp;HTML5 PHP MySQL MVC
 
-Ci-dessous l'architecture de dossier souhaitée:
+Desired folder architecture :
 
 📁 monSuperBlog
-	- 📁controller
-		- 📄 errorController.php
-		- 📄 postController.php
-		- 📄 usercontroller.php
-	- 📁model
-		- postRepository
-	- 📁public
-		- 📁css
-		- 📁img
-		- 📁js
-		- 📄 index.php
-	- 📁view
-		- 📁error
-			- 📄error404.php
-		- 📁post
-			- 📄home.php
-			- 📄 post.php
-		- 📁shared
-			- 📄 _nav.php
-		- 📁user
-			- 📄 connectionForm.php
-		- 📄 base.php
+- 📁controller
+<ul>- 📄 errorController.php<br>
+- 📄 postController.php<br>
+- 📄 usercontroller.php</ul>
+- 📁model<br>
+<ul>- postRepository</ul>
+- 📁public
+<ul>- 📁css<br>
+- 📁img<br>
+- 📁js<br>
+- 📄 index.php</ul>
+- 📁view<br>
+<ul>- 📁error
+<ul>- 📄error404.php</ul></ul>
+- 📁post<br>
+<ul>- 📄home.php<br>
+- 📄 post.php<br></ul>
+<ul>- 📁shared<br>
+	<ul>- 📄 _nav.php<br>
+		- 📁user<br>
+		<ul>- 📄 connectionForm.php<br>
+		- 📄 base.php<br></ul></ul></ul>
 
 ci-dessous les wireframe et la base de données :
 ![Alt text](views&bdd.jpg?raw=true "Title") 
